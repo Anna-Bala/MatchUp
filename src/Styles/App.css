@@ -1,0 +1,92 @@
+body {
+  text-align: center;
+  background-image: url("../img/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+  height: 5vh;
+  margin: 1vh 0;
+}
+
+h2 {
+  margin-top: 40vh;
+  font-size: 50px;
+}
+
+p {
+  margin-top: 1vh;
+  font-size: 30px;
+}
+
+img {
+  width: 20vh;
+  margin: 0.5vh;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+img:hover {
+  opacity: 1;
+}
+
+button {
+  display: inline-block;
+  height: 5vh;
+  width: 15%;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 0.5vh 15% 0 0;
+  background-color: #22304b;
+  border: 1.5px solid white;
+  color: white;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #000716;
+  cursor: pointer;
+}
+
+a {
+  display: inline;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s;
+  margin-right: -35%;
+}
+
+a:hover {
+  color: #384e7c;
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  .App {
+    width: 100vh;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 150%;
+  }
+
+  button {
+    display: block;
+    height: 5vh;
+    width: 50%;
+    font-size: 150%;
+    margin: 1vh 0 1vh 25%;
+  }
+
+  a {
+    display: block;
+    margin-right: 0;
+    font-size: 80%;
+  }
+}
