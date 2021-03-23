@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/MatchUp/static/css/main.73939c25.chunk.css",
+    "main.js": "/MatchUp/static/js/main.2dee1a38.chunk.js",
+    "main.js.map": "/MatchUp/static/js/main.2dee1a38.chunk.js.map",
+    "runtime-main.js": "/MatchUp/static/js/runtime-main.f4938851.js",
+    "runtime-main.js.map": "/MatchUp/static/js/runtime-main.f4938851.js.map",
+    "static/js/2.fc4ed94c.chunk.js": "/MatchUp/static/js/2.fc4ed94c.chunk.js",
+    "static/js/2.fc4ed94c.chunk.js.map": "/MatchUp/static/js/2.fc4ed94c.chunk.js.map",
+    "index.html": "/MatchUp/index.html",
+    "static/css/main.73939c25.chunk.css.map": "/MatchUp/static/css/main.73939c25.chunk.css.map",
+    "static/js/2.fc4ed94c.chunk.js.LICENSE.txt": "/MatchUp/static/js/2.fc4ed94c.chunk.js.LICENSE.txt",
+    "static/media/alien.b2ad9895.png": "/MatchUp/static/media/alien.b2ad9895.png",
+    "static/media/astronaut.8c7687ec.png": "/MatchUp/static/media/astronaut.8c7687ec.png",
+    "static/media/App.css": "/MatchUp/static/media/background.a3c0dd9b.jpg",
+    "static/media/big comets.2d8f3513.png": "/MatchUp/static/media/big comets.2d8f3513.png",
+    "static/media/earth.9675d6ce.png": "/MatchUp/static/media/earth.9675d6ce.png",
+    "static/media/flying stars.334772a7.png": "/MatchUp/static/media/flying stars.334772a7.png",
+    "static/media/gun.292b3239.png": "/MatchUp/static/media/gun.292b3239.png",
+    "static/media/moon.6b248172.png": "/MatchUp/static/media/moon.6b248172.png",
+    "static/media/probe.2af9dfdc.png": "/MatchUp/static/media/probe.2af9dfdc.png",
+    "static/media/red planet.706878bb.png": "/MatchUp/static/media/red planet.706878bb.png",
+    "static/media/rocket.d048ec89.png": "/MatchUp/static/media/rocket.d048ec89.png",
+    "static/media/satelite.a968fec9.png": "/MatchUp/static/media/satelite.a968fec9.png",
+    "static/media/satellites.64a4d8a3.png": "/MatchUp/static/media/satellites.64a4d8a3.png",
+    "static/media/saturn.f25dbbdd.png": "/MatchUp/static/media/saturn.f25dbbdd.png",
+    "static/media/ship.f8470a6c.png": "/MatchUp/static/media/ship.f8470a6c.png",
+    "static/media/stars.6cd087a2.png": "/MatchUp/static/media/stars.6cd087a2.png",
+    "static/media/sun.e4bd93b1.png": "/MatchUp/static/media/sun.e4bd93b1.png",
+    "static/media/system.587aee23.png": "/MatchUp/static/media/system.587aee23.png",
+    "static/media/telescope.dbb3274e.png": "/MatchUp/static/media/telescope.dbb3274e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4938851.js",
+    "static/js/2.fc4ed94c.chunk.js",
+    "static/css/main.73939c25.chunk.css",
+    "static/js/main.2dee1a38.chunk.js"
+  ]
+}
