@@ -66,12 +66,14 @@ a:hover {
   color: #384e7c;
 }
 
-@media (min-width: 320px) and (max-width: 1024px) {
-  .App {
-    width: 100vh;
-    margin: auto;
-  }
+.App {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: auto;
+}
 
+@media (min-width: 320px) and (max-width: 1024px) {
   h1 {
     font-size: 150%;
   }
