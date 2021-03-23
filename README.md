@@ -27,4 +27,4 @@ Test yourself and see in how many moves you can finish the game.
 Icons used in this project are designed by [Graphiqastock / Freepik](https://www.freepik.com/graphiqastock)
 
 ## Contact
-Created by [Anna Bala](github.com/Anna-Bala)
+Created by [Anna Bala](https://github.com/Anna-Bala)
