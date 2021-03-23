@@ -18,7 +18,7 @@ Test yourself and see in how many moves you can finish the game.
 ![screen1](https://user-images.githubusercontent.com/69309363/112177258-0a3fc100-8bf9-11eb-9e26-e3b6a8dd8c12.JPG)
 
 ### End screen
-
+![screen2](https://user-images.githubusercontent.com/69309363/112180370-cc906780-8bfb-11eb-99e4-fa9543dbdafd.JPG)
 
 ## Built with
 * React
