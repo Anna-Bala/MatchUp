@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/MatchUp/static/css/main.88fc99a9.chunk.css",
-    "main.js": "/MatchUp/static/js/main.b6c05e44.chunk.js",
-    "main.js.map": "/MatchUp/static/js/main.b6c05e44.chunk.js.map",
+    "main.css": "/MatchUp/static/css/main.e8aa9588.chunk.css",
+    "main.js": "/MatchUp/static/js/main.479c109f.chunk.js",
+    "main.js.map": "/MatchUp/static/js/main.479c109f.chunk.js.map",
     "runtime-main.js": "/MatchUp/static/js/runtime-main.f4938851.js",
     "runtime-main.js.map": "/MatchUp/static/js/runtime-main.f4938851.js.map",
     "static/js/2.fc4ed94c.chunk.js": "/MatchUp/static/js/2.fc4ed94c.chunk.js",
     "static/js/2.fc4ed94c.chunk.js.map": "/MatchUp/static/js/2.fc4ed94c.chunk.js.map",
     "index.html": "/MatchUp/index.html",
-    "static/css/main.88fc99a9.chunk.css.map": "/MatchUp/static/css/main.88fc99a9.chunk.css.map",
+    "static/css/main.e8aa9588.chunk.css.map": "/MatchUp/static/css/main.e8aa9588.chunk.css.map",
     "static/js/2.fc4ed94c.chunk.js.LICENSE.txt": "/MatchUp/static/js/2.fc4ed94c.chunk.js.LICENSE.txt",
     "static/media/alien.b2ad9895.png": "/MatchUp/static/media/alien.b2ad9895.png",
     "static/media/astronaut.8c7687ec.png": "/MatchUp/static/media/astronaut.8c7687ec.png",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.f4938851.js",
     "static/js/2.fc4ed94c.chunk.js",
-    "static/css/main.88fc99a9.chunk.css",
-    "static/js/main.b6c05e44.chunk.js"
+    "static/css/main.e8aa9588.chunk.css",
+    "static/js/main.479c109f.chunk.js"
   ]
 }
