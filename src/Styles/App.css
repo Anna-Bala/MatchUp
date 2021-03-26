@@ -4,29 +4,29 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
   color: white;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 16px;
 }
 
 h1 {
   text-transform: uppercase;
-  height: 5vh;
   margin: 1vh 0;
+  font-size: 2rem;
 }
 
 h2 {
   margin-top: 40vh;
-  font-size: 50px;
+  font-size: 1.5rem;
 }
 
 p {
   margin-top: 1vh;
-  font-size: 30px;
+  font-size: 1.8rem;
 }
 
 img {
-  width: 20vh;
+  width: 15vh;
   margin: 0.5vh;
   cursor: pointer;
   opacity: 0.5;
@@ -39,10 +39,10 @@ img:hover {
 button {
   display: inline-block;
   height: 5vh;
-  width: 15%;
+  width: 200px;
   text-transform: uppercase;
-  font-size: 20px;
-  margin: 0.5vh 15% 0 0;
+  font-size: 1.5rem;
+  margin: 10px auto;
   background-color: #22304b;
   border: 1.5px solid white;
   color: white;
@@ -55,11 +55,10 @@ button:hover {
 }
 
 a {
-  display: inline;
+  display: block;
   text-decoration: none;
   color: white;
   transition: 0.2s;
-  margin-right: -35%;
 }
 
 a:hover {
@@ -67,28 +66,12 @@ a:hover {
 }
 
 .App {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  margin: auto;
+  width: 100%;
+  min-height: 100vh;
 }
 
-@media (min-width: 320px) and (max-width: 1024px) {
-  h1 {
-    font-size: 150%;
-  }
-
-  button {
-    display: block;
-    height: 5vh;
-    width: 50%;
-    font-size: 150%;
-    margin: 1vh 0 1vh 25%;
-  }
-
-  a {
-    display: block;
-    margin-right: 0;
-    font-size: 80%;
+@media (min-width: 700px) {
+  img {
+    width: 20vh;
   }
 }

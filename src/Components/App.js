@@ -48,14 +48,28 @@ class App extends Component {
     })
   }
 
+  enableInteraction = () => {
+    const allCards = document.querySelectorAll('img');
+    allCards.forEach(card => {
+      card.style.pointerEvents = 'auto';
+    });
+  };
+
+  disableInteraction = () => {
+    const allCards = document.querySelectorAll('img');
+    allCards.forEach(card => {
+      card.style.pointerEvents = 'none';
+    });
+  }
+
   isPair = () => {
+    this.disableInteraction();
     this.count++;
     let choices = this.state.choices;
     let images = this.state.images;
     const index1 = choices[0];
     const index2 = choices[1];
     if((choices[0] - choices[1] === 1) || (choices[0] - choices[1] === -1)) {
-      console.log('PARA');
       this.setState({
         choices: []
       });
@@ -64,7 +78,9 @@ class App extends Component {
         images[index2] = empty;
         this.setState({
           images
-        });}
+        });
+        this.enableInteraction();
+      }
       ,1000);
     }
     else {
@@ -76,7 +92,9 @@ class App extends Component {
         images[index2] = back;
         this.setState({
           images
-        });}
+        });
+        this.enableInteraction();
+      }
       ,1000);
     }
   }
@@ -97,7 +115,6 @@ class App extends Component {
 
   render() {
     const finishArray = this.state.images.map(image => image === empty);
-    console.log(this.count);
     const finish = finishArray.indexOf(false);
     let render = <Board images={this.state.images} indexes={this.state.indexes} reset={this.reset} action={this.addChoice} empty={empty} back={back}/>;
     if(finish === -1) render = <><h2>Congratulations!</h2><p>Amount of moves: {this.count}</p></>;

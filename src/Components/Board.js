@@ -9,7 +9,7 @@ const Board = (props) => {
         <>
             {board}
             <button onClick={props.reset}>Reset</button>
-            <a href="http://www.freepik.com">Icons designed by Graphiqastock / Freepik</a>
+            <a href="https://www.freepik.com/graphiqastock">Icons designed by Graphiqastock / Freepik</a>
         </>
     );
 }
