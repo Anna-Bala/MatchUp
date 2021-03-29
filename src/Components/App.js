@@ -67,9 +67,6 @@ class App extends Component {
     this.count++;
     let choices = this.state.choices;
     let images = this.state.images;
-    console.log(choices);
-    console.log(this.tempImages[choices[0]]);
-    console.log(this.tempImages[choices[1]]);
     const index1 = choices[0];
     const index2 = choices[1];
     if(this.tempImages[choices[0]] === this.tempImages[choices[1]]) {
