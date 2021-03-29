@@ -8,6 +8,7 @@ const Board = (props) => {
     return (
         <>
             {board}
+            <hr/>
             <button onClick={props.reset}>Reset</button>
             <a href="https://www.freepik.com/graphiqastock">Icons designed by Graphiqastock / Freepik</a>
         </>
